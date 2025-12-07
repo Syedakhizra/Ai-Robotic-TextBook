@@ -93,7 +93,7 @@ function HomepageHero() {
           </Link>
           <Link
             className={clsx("button button--info button--lg", styles.heroButton)}
-            to="https://github.com/Syedakhizra/ai-robotics-textbook">
+            to="https://github.com/Syedakhizra/Ai-Robotic-TextBook.git">
             GitHub Repository 🚀
           </Link>
         </div>

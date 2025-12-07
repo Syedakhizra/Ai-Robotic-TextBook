@@ -79,7 +79,7 @@ const config: Config = {
               },
       
               {
-                href: 'https://github.com/Syedakhizra/ai-robotics-textbook',
+                href: 'https://github.com/Syedakhizra/Ai-Robotic-TextBook.git',
                 label: 'GitHub',
                 position: 'right',
               },
@@ -123,7 +123,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Syedakhizra/ai-robotics-textbook',
+              href: 'https://github.com/Syedakhizra/Ai-Robotic-TextBook.git',
             },
           ],
         },
