@@ -1,0 +1,6 @@
+# Ignore artifacts:
+build/
+.docusaurus/
+
+# Ignore installation files:
+node_modules/
