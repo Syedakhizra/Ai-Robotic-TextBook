@@ -57,7 +57,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: '/img/docusaurus-social-card.jpg', // Updated path
     colorMode: {
       defaultMode: 'dark', // Changed to dark
       disableSwitch: false,
@@ -67,8 +67,8 @@ const config: Config = {
       title: 'Physical AI & HR',
       logo: {
         alt: 'AI Robotics Textbook Logo',
-        src: '/assets/img/logo.svg', // Logo for light theme (default for docusaurus navbar)
-        srcDark: '/assets/img/logo_dark.svg', // Logo for dark theme (when dark mode is active)
+        src: '/img/logo.svg', // Corrected path
+        srcDark: '/img/logo_dark.svg', // Corrected path
       },
             items: [
               {
