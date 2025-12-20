@@ -1,0 +1,30 @@
+.ctaSection {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.ctaInner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.ctaSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .ctaTitle {
+    font-size: 2.5rem;
+  }
+
+  .ctaSubtitle {
+    font-size: 1.2rem;
+  }
+}

@@ -67,8 +67,8 @@ const config: Config = {
       title: 'Physical AI & HR',
       logo: {
         alt: 'AI Robotics Textbook Logo',
-        src: '/img/logo.svg', // Corrected path
-        srcDark: '/img/logo_dark.svg', // Corrected path
+        src: '/img/Graident Ai Robot.jpg',
+        srcDark: '/img/Graident Ai Robot.jpg',
       },
             items: [
               {
@@ -109,12 +109,8 @@ const config: Config = {
               href: 'https://www.linkedin.com/in/syeda-khizra-hussain-5826262b9',
             },
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/wc4D2mYf',
             },
           ],
         },
@@ -128,7 +124,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AI Robotics Textbook Project. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AI Robotics Textbook Project. Built by Syeda Khizra.`,
     },
     prism: {
       theme: prismThemes.dracula,

@@ -1,0 +1,13 @@
+.featuresSection {
+  padding: 5rem 2rem;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.featureIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}

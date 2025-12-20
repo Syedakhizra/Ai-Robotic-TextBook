@@ -1,0 +1,31 @@
+.modulesSection {
+  padding: 5rem 2rem;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.module {
+  background-color: var(--ifm-card-background-color);
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-card-shadow);
+  padding: 2rem;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+  color: var(--ifm-text-color);
+  margin-bottom: 2rem;
+}
+
+.module:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ifm-card-hover-shadow);
+}
+
+.moduleLink {
+  text-decoration: none;
+}
