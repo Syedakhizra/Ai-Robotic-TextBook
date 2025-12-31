@@ -40,14 +40,45 @@
 }
 
 .features-section {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 .modules-section {
-  padding: 5rem 0;
+  padding: 6rem 0;
   background-color: var(--ifm-background-surface-color);
 }
 
 .cta-section {
-  padding: 5rem 0;
+  padding: 6rem 0;
+}
+
+.buttons .button {
+  transition: all 0.3s ease;
+}
+
+.buttons .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Hero Section Responsiveness */
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero__subtitle {
+    text-align: center;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
 }
