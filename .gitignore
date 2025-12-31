@@ -26,3 +26,12 @@ __pycache__/
 venv/
 dist/
 *.egg-info/
+
+# Gemini CLI temporary files
+.gemini/tmp/
+
+# Backend environment variables
+backend/.env
+
+# Top-level environment variables
+.env

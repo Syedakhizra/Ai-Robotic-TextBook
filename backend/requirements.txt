@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+cohere
+qdrant-client
+python-dotenv
+lxml
+openai
+openai-agents

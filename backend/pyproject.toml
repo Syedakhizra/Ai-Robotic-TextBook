@@ -1,0 +1,19 @@
+[project]
+name = "rag-ingestion-pipeline"
+version = "0.1.0"
+description = "A pipeline to ingest content, generate embeddings, and store them in Qdrant."
+authors = [{ name = "Gemini Agent", email = "gemini@google.com" }]
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "beautifulsoup4",
+    "cohere",
+    "qdrant-client",
+    "python-dotenv",
+    "lxml"
+]
+
+[tool.uv]
+dev-dependencies = ["pytest"]
