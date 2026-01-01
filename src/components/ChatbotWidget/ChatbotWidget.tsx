@@ -55,7 +55,7 @@ const ChatbotWidget: React.FC = () => {
     setMessages((prevMessages) => [...prevMessages, botLoadingMessage]);
 
     try {
-      const response = await fetch('http://localhost:8000/chat', {
+      const response = await fetch('https://web-agentix-deploy-backend.hf.space/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
